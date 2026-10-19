@@ -1,60 +1,29 @@
-# --- 生成产物（可复现，不提交）---
-VexRiscv.v
-*.hex
-*.elf
-*.bin
-program.S
-expected.json
-n_cases.txt
-n_cases.hex
-link.ld
-vectors.mem
-*.fst
-*.vcd
+# Vivado build artifacts (regenerated on open / build)
+*.runs/
+*.cache/
+*.gen/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.jou
 *.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+*.dcp
+*.xsa
+*.ltx
+*.bit
+*.bin
+*.ltx
 
-# --- Quartus 生成产物 ---
-quartus/output_files/
-quartus/db/
-quartus/incremental_db/
-quartus/*.qdf
-quartus/*.qpf
-quartus/*.pin
-quartus/*.sof
-quartus/*.pof
-quartus/*.jdi
-quartus/*.sld
-quartus/*.done
-quartus/*.map.rpt
-quartus/*.fit.rpt
-quartus/*.asm.rpt
-quartus/*.sta.rpt
-quartus/*.flow.rpt
-quartus/*.summary
-quartus/*.rpt
-quartus/c5_pin_model_dump.txt
-quartus/hc_output/
-quartus/timing_report/
-quartus/*_sim/
-quartus/nativelink_simulation/
-quartus/Questa_Sim/
+# Vivado UI state
+*.ui
 
-# --- 上游 VexRiscv（由 setup.sh 克隆，不提交）---
-vexriscv/
-VexRiscv/
-
-# --- Python / 编辑器 ---
-__pycache__/
-*.pyc
-.idea/
-.vscode/
-*.swp
+# OS / editor
 .DS_Store
-
-# --- 构建中间产物 ---
-*.o
-obj_*/
-build/
-target/
-project/target/
-project/project/
+Thumbs.db
+*.swp
+.vscode/
+.idea/

@@ -1,9 +1,0 @@
-set_global_assignment -name FAMILY "Agilex 3"
-set_global_assignment -name DEVICE A3CW135BM16AE6S
-set_global_assignment -name TOP_LEVEL_ENTITY VexRiscv
-set_global_assignment -name ORIGINAL_QUARTUS_VERSION 26.1
-set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-set_global_assignment -name VERILOG_FILE VexRiscv.v
-set_global_assignment -name SDC_FILE xpulpnn.sdc
-set_global_assignment -name NUM_PARALLEL_PROCESSORS 8
-set_global_assignment -name LAST_QUARTUS_VERSION "26.1.0 Pro Edition"
